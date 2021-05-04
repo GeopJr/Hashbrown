@@ -23,7 +23,7 @@
 		position: absolute;
 		width: 100vw;
 		height: calc(100vh - 28px);
-		background-image: url('/wallpapers/wall.png');
+		background-image: url('/wallpapers/wall.jpg');
 		background-size: cover;
 		background-position: center center;
 		transition-duration: 200ms;
