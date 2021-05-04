@@ -36,5 +36,6 @@
 		overflow: hidden;
 		max-width: 100vw;
 		max-height: 100vh;
+		font-family: 'Cantarell', sans-serif;
 	}
 </style>

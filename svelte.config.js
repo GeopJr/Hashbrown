@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-netlify';
 import sveltePreprocess from 'svelte-preprocess';
+import windi from 'svelte-windicss-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -11,6 +12,10 @@ const config = {
 		sveltePreprocess({
 			scss: true,
 			sass: true
+		}),
+		windi.preprocess({
+			compile: true,
+			prefix: 'hashbrown-'
 		})
 	]
 };

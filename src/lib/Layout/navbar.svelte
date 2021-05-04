@@ -47,24 +47,27 @@
 		target="_blank"
 		rel="noreferrer"
 		alt="Hashbrown's GitHub repo"
-		href="https://github.com/GeopJr/Hashbrown">❤️🌟🏴‍☠️</a
+		href="https://github.com/GeopJr/Hashbrown">❤️ 🌟 🏴‍☠️</a
 	>
 </div>
 
 <style lang="scss">
 	.c-nav-item {
 		font-weight: 700;
-		padding: 2px 12px;
+		padding: 0 12px;
 		outline: 2px solid transparent;
 		outline-offset: 2px;
 		border-radius: 99px;
 		transition-duration: 150ms;
 		border: 3px solid transparent;
+		text-decoration: none;
 		&:hover,
 		&:active,
 		&:focus,
+		&:visited,
 		&.active {
 			box-shadow: inset 0 0 0 100px rgba(255, 255, 255, 0.22);
+			text-decoration: none;
 		}
 	}
 
